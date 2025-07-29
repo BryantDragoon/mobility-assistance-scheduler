@@ -17,6 +17,7 @@ A functional proposal was successfully delivered, meeting the essential requirem
 - Two versions of the application were developed: one for end users and another for administrators. Both versions shared the same core functionalities; however, the administrator version included additional features that allowed for comprehensive management and control of appointments.
 - Users were able to create new appointments and view the overall daily demand but had limited access to appointment details.
 - In contrast, administrators had full control over appointment records, including the ability to view detailed information, update, and cancel appointments as necessary.
+- Application designed and developed to be fully compatible with native accessibility tools, including Android's TalkBack, to provide an inclusive and seamless experience for visually impaired users.
 
 ## 📸 Visual Overview
 
@@ -40,6 +41,8 @@ Users had the option to view the day's demand in detail, including a visual repr
 While users were free to schedule appointments even in overlapping time slots, they were informed that in cases of limited availability, administrators would determine priority — typically favoring the user who reserved the time slot first.
 
 Once the user selected a time slot and confirmed the intent to schedule, the system would immediately redirect them to a contact form page to complete the booking. Upon successful submission, the reservation was added to the day's demand overview, allowing other users to see which time slots remained available.
+
+The application was developed with full compatibility for built-in accessibility features, such as Android's TalkBack, to ensure an inclusive experience for users with visual impairments. Each button and input field was designed to provide clear and meaningful audio descriptions, enabling a smooth and accessible user experience.
 
 <img src="/images/main_page.jpeg" alt="Scheduling Main Page" width="20%">
 <img src="/images/scheduled.jpeg" alt="Scheduling in a Specific Day" width="20%">
